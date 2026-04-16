@@ -1,0 +1,92 @@
+[
+  {
+    "id": "theoden",
+    "historical_name": "Stratēgos Belisarius",
+    "skills": {
+      "T1": { "name": "Cataphract Charge", "b1": "Roman Discipline", "b2": "Vandal's Bane" },
+      "T2": { "name": "Triumph of New Rome", "b1": "City Architect", "b2": "Justinian's Decree" },
+      "T3": { "name": "Stoic Insight", "b1": "Last Great Roman", "b2": "Strategic Silence" }
+    }
+  },
+  {
+    "id": "agzok",
+    "historical_name": "Attila the Hun",
+    "skills": {
+      "T1": { "name": "Scourge of God", "b1": "Steppe Fury", "b2": "Terror of the West" },
+      "T2": { "name": "Hunnic Horde", "b1": "Composite Bows", "b2": "Nomadic Tactics" },
+      "T3": { "name": "Iron Sword of Mars", "b1": "Divine Right", "b2": "Total Conquest" }
+    }
+  },
+  {
+    "id": "bard",
+    "historical_name": "Arash the Archer",
+    "skills": {
+      "T1": { "name": "Sacrifice for Iran", "b1": "Emerald Gale", "b2": "Boundless Flight" },
+      "T2": { "name": "Master of Oxus", "b1": "Persian Precision", "b2": "Mark of the Sun" },
+      "T3": { "name": "One Last Shot", "b1": "Divine Breath", "b2": "Heavenly Guidance" }
+    }
+  },
+  {
+    "id": "king_of_the_dead",
+    "historical_name": "Lord Hades",
+    "skills": {
+      "T1": { "name": "Sovereign of Souls", "b1": "Styx Curse", "b2": "Asphodel Rest" },
+      "T2": { "name": "Bident of Doom", "b1": "Tartarus Gate", "b2": "Invisible Helm" },
+      "T3": { "name": "Wealth of the Earth", "b1": "Mineral Mastery", "b2": "Eternal Silence" }
+    }
+  },
+  {
+    "id": "gandalf_the_grey",
+    "historical_name": "Archimedes the Wise",
+    "skills": {
+      "T1": { "name": "Eureka!", "b1": "Geometry Shield", "b2": "Burning Glass" },
+      "T2": { "name": "Syracuse Defense", "b1": "Leverage of Earth", "b2": "Mathematical Purity" },
+      "T3": { "name": "The Claw", "b1": "Archimedean Screw", "b2": "Circle Squaring" }
+    }
+  },
+  {
+    "id": "galadriel",
+    "historical_name": "Zenobia the Eternal",
+    "skills": {
+      "T1": { "name": "Desert Queen", "b1": "Palmyrene Splendor", "b2": "Light of Palmyra" },
+      "T2": { "name": "Empress of the East", "b1": "Aurelian's rival", "b2": "Sun-Kissed Wisdom" },
+      "T3": { "name": "Nenya's Spirit", "b1": "Eternal Regality", "b2": "Divine Grace" }
+    }
+  },
+  {
+    "id": "sauron",
+    "historical_name": "Emperor Caligula",
+    "skills": {
+      "T1": { "name": "Insane Tyranny", "b1": "God-Emperor", "b2": "Obsidian Scepter" },
+      "T2": { "name": "Palatine Dread", "b1": "Incitatus' Favor", "b2": "Blood Games" },
+      "T3": { "name": "Sea Challenger", "b1": "Neptune's Blight", "b2": "Absolute Authority" }
+    }
+  },
+  {
+    "id": "dwalin",
+    "historical_name": "Beowulf the Great",
+    "skills": {
+      "T1": { "name": "Geatish Strength", "b1": "Grendel's Grip", "b2": "Monster Slayer" },
+      "T2": { "name": "Hero of Heorot", "b1": "Unbreakable Mail", "b2": "Drake-Bane" },
+      "T3": { "name": "King of Geats", "b1": "Legacy of Honor", "b2": "Fatal Valor" }
+    }
+  },
+  {
+    "id": "denethor",
+    "historical_name": "Emperor Nero",
+    "skills": {
+      "T1": { "name": "Rome Ablaze", "b1": "Golden House", "b2": "Artistic Fury" },
+      "T2": { "name": "Matriarch's End", "b1": "Poisoned Cup", "b2": "Paranoia" },
+      "T3": { "name": "Theater King", "b1": "Lyre of Agony", "b2": "Final Performance" }
+    }
+  },
+  {
+    "id": "saruman",
+    "historical_name": "Pythagoras the Mage",
+    "skills": {
+      "T1": { "name": "Harmonic Mean", "b1": "Right Triangle", "b2": "Number Mystery" },
+      "T2": { "name": "Brotherhood of Croton", "b1": "Silent Rule", "b2": "Tetractys Power" },
+      "T3": { "name": "Music of Spheres", "b1": "Cosmic Order", "b2": "Geometric Truth" }
+    }
+  }
+]

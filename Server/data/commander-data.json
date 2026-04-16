@@ -1,0 +1,91 @@
+{
+  "commanders": [
+    {
+      "id": "julius_caesar",
+      "name": "Julius Caesar",
+      "faction": "rome",
+      "archetype": "infantry",
+      "rarity": "legendary",
+      "description": "General of the Roman Legions. Master of rapid deployment and tactical discipline.",
+      "base_stats": { "might": 110, "focus": 120, "speed": 85, "command": 100 },
+      "unique_gear_id": "laurels_of_victory",
+      "skills": [
+        { "id": "veni_vidi_vici",      "name": "Veni, Vidi, Vici",    "tier": 1, "row": 1, "col": 1, "effect": "+15% damage in the first 3 rounds of combat" },
+        { "id": "testudo_formation",   "name": "Testudo Formation",   "tier": 1, "row": 1, "col": 2, "effect": "+20% defense against ranged attacks" },
+        { "id": "dictator_perpetuo",   "name": "Dictator Perpetuo",   "tier": 2, "row": 2, "col": 1, "effect": "+25% max troop capacity for the legion" }
+      ]
+    },
+    {
+      "id": "cleopatra",
+      "name": "Cleopatra VII",
+      "faction": "egypt",
+      "archetype": "support",
+      "rarity": "legendary",
+      "description": "Last Pharaoh of Egypt. Master of diplomacy and naval logistics.",
+      "base_stats": { "might": 70, "focus": 150, "speed": 90, "command": 85 },
+      "unique_gear_id": "diadem_of_the_nile",
+      "skills": [
+        { "id": "egyptian_wealth",     "name": "Egyptian Wealth",     "tier": 1, "row": 1, "col": 1, "effect": "+10% resource collection speed" },
+        { "id": "diplomatic_grace",    "name": "Diplomatic Grace",    "tier": 1, "row": 1, "col": 2, "effect": "-20% stamina consumption for marches" },
+        { "id": "nile_logistician",    "name": "Nile Logistician",    "tier": 2, "row": 2, "col": 1, "effect": "+30% march speed on river tiles" }
+      ]
+    },
+    {
+      "id": "hannibal_barca",
+      "name": "Hannibal Barca",
+      "faction": "carthage",
+      "archetype": "cavalry",
+      "rarity": "legendary",
+      "description": "Scourge of Rome. Famous for crossing the Alps with war elephants.",
+      "base_stats": { "might": 130, "focus": 90, "speed": 110, "command": 95 },
+      "unique_gear_id": "punic_blade",
+      "skills": [
+        { "id": "alpine_march",        "name": "Alpine March",        "tier": 1, "row": 1, "col": 1, "effect": "No speed penalty on mountain tiles" },
+        { "id": "elephant_charge",     "name": "Elephant Charge",     "tier": 1, "row": 1, "col": 2, "effect": "+30% damage vs. infantry formations" },
+        { "id": "cannaes_stratagem",   "name": "Cannae's Stratagem",  "tier": 2, "row": 2, "col": 1, "effect": "+15% critical hit chance" }
+      ]
+    },
+    {
+      "id": "boudica",
+      "name": "Boudica",
+      "faction": "gaul",
+      "archetype": "infantry",
+      "rarity": "epic",
+      "description": "Warrior Queen of the Iceni. Leads fierce tribal warriors with unyielding rage.",
+      "base_stats": { "might": 140, "focus": 60, "speed": 75, "command": 80 },
+      "unique_gear_id": "tribal_torque",
+      "skills": [
+        { "id": "warrior_spirit",      "name": "Warrior Spirit",      "tier": 1, "row": 1, "col": 1, "effect": "+20% attack when health is below 50%" },
+        { "id": "tribal_horde",        "name": "Tribal Horde",        "tier": 1, "row": 1, "col": 2, "effect": "Reduces unit training time by 10%" }
+      ]
+    },
+    {
+      "id": "alexander_the_great",
+      "name": "Alexander the Great",
+      "faction": "greece",
+      "archetype": "cavalry",
+      "rarity": "legendary",
+      "description": "King of Macedonia. Builder of one of the largest empires in history.",
+      "base_stats": { "might": 125, "focus": 110, "speed": 130, "command": 100 },
+      "unique_gear_id": "spear_of_macedon",
+      "skills": [
+        { "id": "companion_cavalry",   "name": "Companion Cavalry",   "tier": 1, "row": 1, "col": 1, "effect": "+25% cavalry attack and speed" },
+        { "id": "phalanx_synergy",     "name": "Phalanx Synergy",     "tier": 1, "row": 1, "col": 2, "effect": "+15% defense for infantry in the same march" }
+      ]
+    },
+    {
+      "id": "zenobia",
+      "name": "Zenobia",
+      "faction": "persia",
+      "archetype": "ranged",
+      "rarity": "epic",
+      "description": "Queen of the Palmyrene Empire. Master archer and eastern strategist.",
+      "base_stats": { "might": 95, "focus": 130, "speed": 100, "command": 75 },
+      "unique_gear_id": "eastern_bow",
+      "skills": [
+        { "id": "desert_vanguard",     "name": "Desert Vanguard",     "tier": 1, "row": 1, "col": 1, "effect": "+20% defense and attack in desert tiles" },
+        { "id": "palmyrene_archery",   "name": "Palmyrene Archery",   "tier": 1, "row": 1, "col": 2, "effect": "+15% ranged unit damage" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  { "id": "saruman", "name": "Pythagoras", "skills": ["Harmonic Mean", "Geometry Shield", "Number Mystery", "Music of Spheres"] },
+  { "id": "gandalf_the_grey", "name": "Archimedes", "skills": ["Eureka!", "Leverage", "Burning Glass", "The Claw"] },
+  { "id": "theoden", "name": "Belisarius", "skills": ["Cataphract Charge", "Vandal's Bane", "Roman Discipline", "City Architect"] },
+  { "id": "eowyn", "name": "Joan of Arc", "skills": ["Maiden's Valor", "Divine Banner", "Siege of Orleans", "Martyr's Light"] },
+  { "id": "arwen", "name": "Hypatia", "skills": ["Astronomical Sight", "Circle of Wisdom", "Sun-Kissed Mind", "Neoplatonic Truth"] },
+  { "id": "aragorn", "name": "Julius Caesar", "skills": ["Gallic Conquest", "Veni Vidi Vici", "Rubicon Crossing", "Imperial Might"] },
+  { "id": "boromir", "name": "Leonidas", "skills": ["Spartan Phalanx", "Iron Shield", "Defiance at Gates", "Molon Labe"] },
+  { "id": "faramir", "name": "Scipio Africanus", "skills": ["Zama's Victory", "Tactical Mastery", "Virtue of Rome", "Protector of Italy"] },
+  { "id": "denethor", "name": "Nero", "skills": ["Rome Ablaze", "Golden House", "Artistic Fury", "Palatine Dread"] },
+  { "id": "treebeard", "name": "Gilgamesh", "skills": ["Uruk's Might", "First King", "Enkidu's Bond", "Flood's End"] },
+  { "id": "radagast", "name": "Solomon", "skills": ["Temple Builder", "Wisdom of Kings", "Seven Seals", "Seal of Solomon"] },
+  { "id": "galadriel", "name": "Zenobia", "skills": ["Palmyrene Splendor", "Desert Queen", "Sun-Kissed Grace", "Empress of East"] },
+  { "id": "sauron", "name": "Caligula", "skills": ["Insane Tyranny", "God-Emperor", "Obsidian Mace", "Sea Challenger"] },
+  { "id": "witch_king", "name": "Akhenaten", "skills": ["Everlasting Sun", "Aten's Reach", "Sun-Disk Power", "Mummy Curse"] },
+  { "id": "gollum", "name": "Diogenes", "skills": ["The Tub", "Cynic's Truth", "Alexander's Shadow", "Plato's Man"] },
+  { "id": "legolas", "name": "Arash", "skills": ["Iranian Gale", "Sacrifice Shot", "Bow of Oxus", "Emerald Arrow"] },
+  { "id": "gimli", "name": "Beowulf", "skills": ["Grendel's Grip", "Geatish Strength", "Dragon-Slayer", "Hero of Heorot"] },
+  { "id": "dain", "name": "Boudica", "skills": ["Iceni Revolt", "Iron Hammer", "Celtic Fury", "Chariot Charge"] },
+  { "id": "isildur", "name": "Constantine", "skills": ["Holy Sword", "Sign of Cross", "Edict of Milan", "Golden Era"] },
+  { "id": "khamul", "name": "Tamerlane", "skills": ["Shadow Scourge", "Skull Pyramids", "Iron Mask", "Conquest of Asia"] },
+  { "id": "mouth_of_sauron", "historical": "Goebbels", "name": "The Mouth", "skills": ["False Hope", "Propaganda", "Fearmonger", "Iron Will"] }
+]

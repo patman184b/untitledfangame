@@ -1,6 +1,6 @@
 # Large files (Exceeding GitHub 100MB limit)
 Arda-Maps-master.zip
-Arda-Maps-master/
+# Arda-Maps-master/ (Removed ignore to allow syncing unzipped version)
 
 # Node.js
 node_modules/
@@ -55,3 +55,7 @@ implementation_plan.md
 data_inventory.md
 walkthrough.md
 task.md
+
+# Python local files
+__pycache__/
+*.pyc

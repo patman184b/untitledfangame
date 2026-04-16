@@ -1,0 +1,1732 @@
+{
+  "commanders": [
+    {
+      "id": "beorn",
+      "name": "Beorn",
+      "title": "Rise to War Hero",
+      "faction": "beornings",
+      "vesi_score": 18.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 2.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 136,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "saruman",
+      "name": "Saruman",
+      "title": "Rise to War Hero",
+      "faction": "isengard",
+      "vesi_score": 18.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 136,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "sauron",
+      "name": "Sauron",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 18.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 2.0,
+        "cc": 2.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 136,
+      "growth": {
+        "attack": 2.5,
+        "defense": 2.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "galadriel",
+      "name": "Galadriel",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 17.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.5,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.5,
+        "cc": 2.0,
+        "utility": 2.5,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.5
+      },
+      "baseLeadership": 134,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.25,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "gandalf_the_white",
+      "name": "Gandalf the White",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 17.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.25,
+        "cc": 0.75,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 134,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.125,
+        "initiative": 1.375
+      }
+    },
+    {
+      "id": "undying",
+      "name": "Undying",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 17.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.0,
+        "cc": 1.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 134,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.0,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "title": "Rise to War Hero",
+      "faction": "rohan",
+      "vesi_score": 16.5,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 133,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "dain",
+      "name": "Dain",
+      "title": "Rise to War Hero",
+      "faction": "erebor",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.25,
+        "cc": 0.75,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.125,
+        "initiative": 1.375
+      }
+    },
+    {
+      "id": "gil_galad",
+      "name": "Gil-Galad",
+      "title": "Rise to War Hero",
+      "faction": "lindon",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 3.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "shadow",
+      "name": "Shadow",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "skalhelm",
+      "name": "Skalhelm",
+      "title": "Rise to War Hero",
+      "faction": "angmar",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.0,
+        "cc": 2.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "isildur",
+      "name": "Isildur",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 14.5,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 129,
+      "growth": {
+        "attack": 2.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "witch_king",
+      "name": "Witch-king",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 14.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.5,
+        "cc": 2.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 129,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.75,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "gwaihir",
+      "name": "Gwaihir",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 14.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 128,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "azog",
+      "name": "Azog",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 13.5,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 2.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.5
+      },
+      "baseLeadership": 127,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "aragorn_king_of_men",
+      "name": "Aragorn King of Men",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 2.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "cestaro",
+      "name": "Cestaro",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 1.0,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "elrond",
+      "name": "Elrond",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "eomer",
+      "name": "Eomer",
+      "title": "Rise to War Hero",
+      "faction": "rohan",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "gandalf_the_grey",
+      "name": "Gandalf the Grey",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.5,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "kirun",
+      "name": "Kirun",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 2.0,
+        "utility": 1.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "thorin",
+      "name": "Thorin",
+      "title": "Rise to War Hero",
+      "faction": "erebor",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.5,
+        "utility": 3.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "black_serpent",
+      "name": "Black Serpent",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 12.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 124,
+      "growth": {
+        "attack": 2.0,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "cirdan",
+      "name": "Cirdan",
+      "title": "Rise to War Hero",
+      "faction": "lindon",
+      "vesi_score": 12.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 2.0,
+        "cc": 1.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 124,
+      "growth": {
+        "attack": 2.0,
+        "defense": 2.0,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "gimli",
+      "name": "Gimli",
+      "title": "Rise to War Hero",
+      "faction": "erebor",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "lurtz",
+      "name": "Lurtz",
+      "title": "Rise to War Hero",
+      "faction": "isengard",
+      "vesi_score": 12.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 124,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "legolas",
+      "name": "Legolas",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 11.5,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 1.5,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 123,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "thranduil",
+      "name": "Thranduil",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 11.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 123,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "boromir",
+      "name": "Boromir",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "frodo_and_sam",
+      "name": "Frodo & Sam",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.5,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "lathar",
+      "name": "Lathar",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "oglurg",
+      "name": "Oglurg",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 1.5,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "radagast",
+      "name": "Radagast",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 0.5,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "theoden",
+      "name": "Theoden",
+      "title": "Rise to War Hero",
+      "faction": "rohan",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "agzok",
+      "name": "Agzok",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "azru_khor",
+      "name": "Azru-Khor",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.5
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "falgin",
+      "name": "Falgin",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "grima",
+      "name": "Grima",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "sunind",
+      "name": "Sunind",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "king_of_the_dead",
+      "name": "King of the Dead",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 9.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 119,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "treebeard",
+      "name": "Treebeard",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 9.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 0.5,
+        "versatility": 0.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 119,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "beruthiel",
+      "name": "Beruthiel",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 9.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 118,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "gothmog",
+      "name": "Gothmog",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 9.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 118,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "arwen",
+      "name": "Arwen",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "denethor",
+      "name": "Denethor",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "dwalin",
+      "name": "Dwalin",
+      "title": "Rise to War Hero",
+      "faction": "erebor",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "eowyn",
+      "name": "Eowyn",
+      "title": "Rise to War Hero",
+      "faction": "rohan",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "faramir",
+      "name": "Faramir",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "glasha",
+      "name": "Glasha",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "khamul",
+      "name": "Khamul",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 0.5,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "merry_and_pippin",
+      "name": "Merry & Pippin",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "elladan",
+      "name": "Elladan",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "elrohir",
+      "name": "Elrohir",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "hirgon",
+      "name": "Hirgon",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "imrahil",
+      "name": "Imrahil",
+      "title": "Rise to War Hero",
+      "faction": "gondor",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "mouth_of_sauron",
+      "name": "Mouth of Sauron",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "ori",
+      "name": "Ori",
+      "title": "Rise to War Hero",
+      "faction": "erebor",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "qurwan",
+      "name": "Qurwan",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "gorbag",
+      "name": "Gorbag",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 7.5,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 115,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "grishnakh",
+      "name": "Grishnakh",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 7.5,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 115,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "adunae",
+      "name": "Adunae",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 7.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 114,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "ugluk",
+      "name": "Ugluk",
+      "title": "Rise to War Hero",
+      "faction": "isengard",
+      "vesi_score": 7.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 114,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "ugthak",
+      "name": "Ugthak",
+      "title": "Rise to War Hero",
+      "faction": "isengard",
+      "vesi_score": 7.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 114,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "celeborn",
+      "name": "Celeborn",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 6.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 112,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "khaldoon",
+      "name": "Khaldoon",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 6.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 112,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "maltok",
+      "name": "Maltok",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 5.0,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 110,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "shagrat",
+      "name": "Shagrat",
+      "title": "Rise to War Hero",
+      "faction": "mordor",
+      "vesi_score": 4.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 0.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 109,
+      "growth": {
+        "attack": 1.25,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "haldir",
+      "name": "Haldir",
+      "title": "Rise to War Hero",
+      "faction": "lothlorien",
+      "vesi_score": 4.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 108,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "yusraa",
+      "name": "Yusraa",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 4.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 0.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 108,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.25,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "zegrid",
+      "name": "Zegrid",
+      "title": "Rise to War Hero",
+      "faction": "neutral",
+      "vesi_score": 3.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 0.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 106,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "sharku",
+      "name": "Sharku",
+      "title": "Rise to War Hero",
+      "faction": "isengard",
+      "vesi_score": 2.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 0.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 0.0,
+        "synergy": 0.5,
+        "gear": 0.0
+      },
+      "baseLeadership": 105,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.25,
+        "initiative": 1.25
+      }
+    }
+  ]
+}

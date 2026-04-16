@@ -1,0 +1,104 @@
+{
+  "cities": [
+    {
+      "id": "atlantis",
+      "name": "Atlantis (The Imperial Prize)",
+      "level": 10,
+      "q": 50,
+      "r": 30,
+      "siege_hp": 25000000,
+      "garrison_count": 5,
+      "faction_id": "neutral"
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "level": 9,
+      "q": 45,
+      "r": 35,
+      "siege_hp": 15000000,
+      "garrison_count": 4,
+      "faction_id": "auric_legion"
+    },
+    {
+      "id": "carthage",
+      "name": "Carthage",
+      "level": 9,
+      "q": 35,
+      "r": 25,
+      "siege_hp": 15000000,
+      "garrison_count": 4,
+      "faction_id": "nocturne_carth"
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandria",
+      "level": 9,
+      "q": 75,
+      "r": 15,
+      "siege_hp": 15000000,
+      "garrison_count": 4,
+      "faction_id": "sun_kingdom"
+    },
+    {
+      "id": "athens",
+      "name": "Athens",
+      "level": 9,
+      "q": 65,
+      "r": 30,
+      "siege_hp": 15000000,
+      "garrison_count": 4,
+      "faction_id": "byzantine_luminants"
+    },
+    {
+      "id": "gergovia",
+      "name": "Gergovia",
+      "level": 9,
+      "q": 30,
+      "r": 45,
+      "siege_hp": 12000000,
+      "garrison_count": 3,
+      "faction_id": "verdant_covenant"
+    },
+    {
+      "id": "teutoburg",
+      "name": "Teutoburg",
+      "level": 9,
+      "q": 55,
+      "r": 50,
+      "siege_hp": 12000000,
+      "garrison_count": 3,
+      "faction_id": "iron_dominion"
+    },
+    {
+      "id": "panticapaeum",
+      "name": "Panticapaeum",
+      "level": 9,
+      "q": 85,
+      "r": 50,
+      "siege_hp": 12000000,
+      "garrison_count": 3,
+      "faction_id": "steppe_stormhorde"
+    },
+    {
+      "id": "neapolis",
+      "name": "Neapolis",
+      "level": 5,
+      "q": 48,
+      "r": 33,
+      "siege_hp": 5000000,
+      "garrison_count": 2,
+      "faction_id": "neutral"
+    },
+    {
+      "id": "syracuse",
+      "name": "Syracuse",
+      "level": 6,
+      "q": 46,
+      "r": 28,
+      "siege_hp": 7000000,
+      "garrison_count": 2,
+      "faction_id": "neutral"
+    }
+  ]
+}

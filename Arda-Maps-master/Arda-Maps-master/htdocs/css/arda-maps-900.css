@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.site_footer-copyright::after {
+  content: "© 2015 Arda Maps"; }
+
+.site_footer-copyright span {
+  display: none; }
+
+/*# sourceMappingURL=arda-maps-900.css.map */

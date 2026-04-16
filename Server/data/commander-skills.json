@@ -1,0 +1,37 @@
+{
+  "skills": [
+    {
+      "commander_id": "theoden",
+      "historical_name": "Stratēgos Belisarius",
+      "tree": {
+        "T1": {
+          "name": "Cataphract Charge",
+          "description": "Increases Cavalry Speed and Attack dmg.",
+          "unlock_respect": 0,
+          "branches": [
+            { "name": "Roman Discipline", "effect": "cavalry_defense_plus", "scaling": "focus" },
+            { "name": "Vandal's Bane", "effect": "dmg_v_mercenary", "scaling": "attack" }
+          ]
+        },
+        "T2": {
+          "name": "Triumph of New Rome",
+          "description": "Increases army morale and reduces damage taken.",
+          "unlock_respect": 3,
+          "branches": [
+            { "name": "City Architect", "effect": "settlement_defense", "scaling": "none" },
+            { "name": "Justinian's Decree", "effect": "command_plus", "scaling": "focus" }
+          ]
+        },
+        "T3": {
+          "name": "Stoic Insight",
+          "description": "Commander gains high evasion and counter-attack chance.",
+          "unlock_respect": 5,
+          "branches": [
+            { "name": "Last Great Roman", "effect": "damage_reduction", "scaling": "attack" },
+            { "name": "Strategic Silence", "effect": "stun_immunity", "scaling": "none" }
+          ]
+        }
+      }
+    }
+  ]
+}

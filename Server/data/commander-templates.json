@@ -1,0 +1,1804 @@
+{
+  "commanders": [
+    {
+      "id": "beorn",
+      "original_name": "Beorn",
+      "name": "Vercingetorix",
+      "title": "The Wild-King",
+      "faction": "verdant_covenant",
+      "vesi_score": 18.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 2.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 136,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "saruman",
+      "original_name": "Saruman",
+      "name": "Pythagoras",
+      "title": "The Geometric-Mage",
+      "faction": "iron_dominion",
+      "vesi_score": 18.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 136,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "sauron",
+      "original_name": "Sauron",
+      "name": "Caligula",
+      "title": "The Arcane-Tyrant",
+      "faction": "steppe_stormhorde",
+      "vesi_score": 18.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 2.0,
+        "cc": 2.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 136,
+      "growth": {
+        "attack": 2.5,
+        "defense": 2.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "galadriel",
+      "original_name": "Galadriel",
+      "name": "Zenobia",
+      "title": "The Eternal Empress",
+      "faction": "nocturne_carth",
+      "vesi_score": 17.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.5,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.5,
+        "cc": 2.0,
+        "utility": 2.5,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.5
+      },
+      "baseLeadership": 134,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.25,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "gandalf_the_white",
+      "original_name": "Gandalf the White",
+      "name": "Apollonius",
+      "title": "Radiant-Oracle",
+      "faction": "byzantine_luminants",
+      "vesi_score": 17.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.25,
+        "cc": 0.75,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 134,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.125,
+        "initiative": 1.375
+      }
+    },
+    {
+      "id": "undying",
+      "original_name": "Undying",
+      "name": "Akhenaten",
+      "title": "The Everlasting",
+      "faction": "nocturne_carth",
+      "vesi_score": 17.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.0,
+        "cc": 1.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 134,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.0,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "helm",
+      "original_name": "Helm",
+      "name": "Leonidas",
+      "title": "The Iron-Shield",
+      "faction": "auric_legion",
+      "vesi_score": 16.5,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 133,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "dain",
+      "original_name": "Dain",
+      "name": "Boudica",
+      "title": "Iron-Hammer of Iceni",
+      "faction": "iron_dominion",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.25,
+        "cc": 0.75,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.125,
+        "initiative": 1.375
+      }
+    },
+    {
+      "id": "gil_galad",
+      "original_name": "Gil-Galad",
+      "name": "Themistocles",
+      "title": "Lance of the Sea",
+      "faction": "byzantine_luminants",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 3.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "shadow",
+      "original_name": "Shadow",
+      "name": "Assurbanipal",
+      "title": "Lord of Nineveh",
+      "faction": "nocturne_carth",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "skalhelm",
+      "original_name": "Skalhelm",
+      "name": "Alaric",
+      "title": "Scourge of Rome",
+      "faction": "steppe_stormhorde",
+      "vesi_score": 16.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.0,
+        "cc": 2.0,
+        "utility": 3.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 132,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "isildur",
+      "original_name": "Isildur",
+      "name": "Ancient Isildur",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 14.5,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 129,
+      "growth": {
+        "attack": 2.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "witch_king",
+      "original_name": "Witch-king",
+      "name": "Ancient Witch-king",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 14.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.5,
+        "cc": 2.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 129,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.75,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "gwaihir",
+      "original_name": "Gwaihir",
+      "name": "Ancient Gwaihir",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 14.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 128,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "azog",
+      "original_name": "Azog",
+      "name": "Ancient Azog",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.5,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 2.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.5
+      },
+      "baseLeadership": 127,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "aragorn_king_of_men",
+      "original_name": "Aragorn King of Men",
+      "name": "Ancient Aragorn King of Men",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 2.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "cestaro",
+      "original_name": "Cestaro",
+      "name": "Ancient Cestaro",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 1.0,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "elrond",
+      "original_name": "Elrond",
+      "name": "Ancient Elrond",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "eomer",
+      "original_name": "Eomer",
+      "name": "Ancient Eomer",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "gandalf_the_grey",
+      "original_name": "Gandalf the Grey",
+      "name": "Ancient Gandalf the Grey",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.5,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 2.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "kirun",
+      "original_name": "Kirun",
+      "name": "Ancient Kirun",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 2.0,
+        "utility": 1.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 2.0
+      }
+    },
+    {
+      "id": "thorin",
+      "original_name": "Thorin",
+      "name": "Ancient Thorin",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 2.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.5,
+        "utility": 3.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "black_serpent",
+      "original_name": "Black Serpent",
+      "name": "Ancient Black Serpent",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 12.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 124,
+      "growth": {
+        "attack": 2.0,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "cirdan",
+      "original_name": "Cirdan",
+      "name": "Ancient Cirdan",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 12.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 2.0,
+        "cc": 1.0,
+        "utility": 2.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 124,
+      "growth": {
+        "attack": 2.0,
+        "defense": 2.0,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "gimli",
+      "original_name": "Gimli",
+      "name": "Ancient Gimli",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 13.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 4.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 126,
+      "growth": {
+        "attack": 3.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "lurtz",
+      "original_name": "Lurtz",
+      "name": "Ancient Lurtz",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 12.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 124,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "legolas",
+      "original_name": "Legolas",
+      "name": "Ancient Legolas",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.5,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 1.5,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 123,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "thranduil",
+      "original_name": "Thranduil",
+      "name": "Ancient Thranduil",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 123,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "boromir",
+      "original_name": "Boromir",
+      "name": "Ancient Boromir",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "frodo_and_sam",
+      "original_name": "Frodo & Sam",
+      "name": "Ancient Frodo & Sam",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.5,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 2.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "lathar",
+      "original_name": "Lathar",
+      "name": "Ancient Lathar",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "oglurg",
+      "original_name": "Oglurg",
+      "name": "Ancient Oglurg",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 1.5,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "radagast",
+      "original_name": "Radagast",
+      "name": "Ancient Radagast",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 0.5,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "theoden",
+      "original_name": "Theoden",
+      "name": "Ancient Theoden",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 11.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 122,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "agzok",
+      "original_name": "Agzok",
+      "name": "Ancient Agzok",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "azru_khor",
+      "original_name": "Azru-Khor",
+      "name": "Ancient Azru-Khor",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.5
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "bard",
+      "original_name": "Bard",
+      "name": "Ancient Bard",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 1.0,
+        "dmg_sustain": 3.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "falgin",
+      "original_name": "Falgin",
+      "name": "Ancient Falgin",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 2.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "grima",
+      "original_name": "Grima",
+      "name": "Ancient Grima",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "sunind",
+      "original_name": "Sunind",
+      "name": "Ancient Sunind",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 10.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 120,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "king_of_the_dead",
+      "original_name": "King of the Dead",
+      "name": "Ancient King of the Dead",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 9.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 119,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "treebeard",
+      "original_name": "Treebeard",
+      "name": "Ancient Treebeard",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 9.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 2.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 0.5,
+        "versatility": 0.5,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 119,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "beruthiel",
+      "original_name": "Beruthiel",
+      "name": "Ancient Beruthiel",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 9.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 118,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "gothmog",
+      "original_name": "Gothmog",
+      "name": "Ancient Gothmog",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 9.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 118,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "arwen",
+      "original_name": "Arwen",
+      "name": "Ancient Arwen",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "denethor",
+      "original_name": "Denethor",
+      "name": "Ancient Denethor",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "dwalin",
+      "original_name": "Dwalin",
+      "name": "Ancient Dwalin",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.5,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 2.25,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "eowyn",
+      "original_name": "Eowyn",
+      "name": "Ancient Eowyn",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "faramir",
+      "original_name": "Faramir",
+      "name": "Ancient Faramir",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "glasha",
+      "original_name": "Glasha",
+      "name": "Ancient Glasha",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "khamul",
+      "original_name": "Khamul",
+      "name": "Ancient Khamul",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 0.5,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "merry_and_pippin",
+      "original_name": "Merry & Pippin",
+      "name": "Ancient Merry & Pippin",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.5,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 117,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "elladan",
+      "original_name": "Elladan",
+      "name": "Ancient Elladan",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 1.5,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.75,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "elrohir",
+      "original_name": "Elrohir",
+      "name": "Ancient Elrohir",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "hirgon",
+      "original_name": "Hirgon",
+      "name": "Ancient Hirgon",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 2.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "imrahil",
+      "original_name": "Imrahil",
+      "name": "Ancient Imrahil",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "mouth_of_sauron",
+      "original_name": "Mouth of Sauron",
+      "name": "Ancient Mouth of Sauron",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "ori",
+      "original_name": "Ori",
+      "name": "Ancient Ori",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.5,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.75,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "qurwan",
+      "original_name": "Qurwan",
+      "name": "Ancient Qurwan",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 8.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 1.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 116,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "gorbag",
+      "original_name": "Gorbag",
+      "name": "Ancient Gorbag",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 7.5,
+      "vesi_stats": {
+        "relic": 1.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 115,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "grishnakh",
+      "original_name": "Grishnakh",
+      "name": "Ancient Grishnakh",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 7.5,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 1.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 115,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.5
+      }
+    },
+    {
+      "id": "adunae",
+      "original_name": "Adunae",
+      "name": "Ancient Adunae",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 7.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 2.0,
+        "stat_boost": 0.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 114,
+      "growth": {
+        "attack": 2.0,
+        "defense": 1.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "ugluk",
+      "original_name": "Ugluk",
+      "name": "Ancient Ugluk",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 7.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 114,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "ugthak",
+      "original_name": "Ugthak",
+      "name": "Ancient Ugthak",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 7.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 114,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "celeborn",
+      "original_name": "Celeborn",
+      "name": "Ancient Celeborn",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 6.0,
+      "vesi_stats": {
+        "relic": 1.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 2.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 112,
+      "growth": {
+        "attack": 1.5,
+        "defense": 2.0,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "khaldoon",
+      "original_name": "Khaldoon",
+      "name": "Ancient Khaldoon",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 6.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 1.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 1.0
+      },
+      "baseLeadership": 112,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "maltok",
+      "original_name": "Maltok",
+      "name": "Ancient Maltok",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 5.0,
+      "vesi_stats": {
+        "relic": 0.5,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 110,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "shagrat",
+      "original_name": "Shagrat",
+      "name": "Ancient Shagrat",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 4.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 0.5,
+        "stat_boost": 1.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 109,
+      "growth": {
+        "attack": 1.25,
+        "defense": 1.75,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "haldir",
+      "original_name": "Haldir",
+      "name": "Ancient Haldir",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 4.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 108,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "yusraa",
+      "original_name": "Yusraa",
+      "name": "Ancient Yusraa",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 4.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 0.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 1.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 108,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.25,
+        "initiative": 1.25
+      }
+    },
+    {
+      "id": "zegrid",
+      "original_name": "Zegrid",
+      "name": "Ancient Zegrid",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 3.0,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 1.0,
+        "cc": 0.0,
+        "utility": 0.0,
+        "versatility": 1.0,
+        "synergy": 0.0,
+        "gear": 0.0
+      },
+      "baseLeadership": 106,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.5,
+        "initiative": 1.0
+      }
+    },
+    {
+      "id": "sharku",
+      "original_name": "Sharku",
+      "name": "Ancient Sharku",
+      "title": "Historical Shadow",
+      "faction": "neutral",
+      "vesi_score": 2.5,
+      "vesi_stats": {
+        "relic": 0.0,
+        "respect": 0.0,
+        "dmg_sustain": 1.0,
+        "stat_boost": 0.5,
+        "cc": 0.5,
+        "utility": 0.0,
+        "versatility": 0.0,
+        "synergy": 0.5,
+        "gear": 0.0
+      },
+      "baseLeadership": 105,
+      "growth": {
+        "attack": 1.5,
+        "defense": 1.25,
+        "initiative": 1.25
+      }
+    }
+  ]
+}

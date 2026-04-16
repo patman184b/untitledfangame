@@ -226,6 +226,61 @@ Sharku – 2.5
 Relic: 0 | Respect: 0 | Dmg/Sustain: 1 | Stat Boost: 0.5 | CC: 0.5 | Utility: 0 | Versatility: 0 | Synergy: 0.5 | Gear: 0
 """
 
+# Mapping LotR names to original Rise to War factions
+CLASSIC_FACTION_MAP = {
+    "Beorn": "beornings",
+    "Saruman": "isengard",
+    "Sauron": "mordor",
+    "Galadriel": "lothlorien",
+    "Gandalf the White": "gondor",
+    "Undying": "mordor",
+    "Helm": "rohan",
+    "Dain": "erebor",
+    "Gil-Galad": "lindon",
+    "Shadow": "mordor",
+    "Skalhelm": "angmar",
+    "Isildur": "gondor",
+    "Witch-king": "mordor",
+    "Gwaihir": "neutral",
+    "Azog": "mordor",
+    "Aragorn King of Men": "gondor",
+    "Elrond": "lothlorien",
+    "Eomer": "rohan",
+    "Gandalf the Grey": "neutral",
+    "Thorin": "erebor",
+    "Black Serpent": "mordor", # Harad often groups with Mordor
+    "Cirdan": "lindon",
+    "Gimli": "erebor",
+    "Lurtz": "isengard",
+    "Legolas": "lothlorien",
+    "Thranduil": "lothlorien",
+    "Boromir": "gondor",
+    "Frodo & Sam": "neutral",
+    "Radagast": "neutral",
+    "Theoden": "rohan",
+    "Arwen": "lothlorien",
+    "Denethor": "gondor",
+    "Dwalin": "erebor",
+    "Eowyn": "rohan",
+    "Faramir": "gondor",
+    "Khamul": "mordor",
+    "Merry & Pippin": "neutral",
+    "Elladan": "lothlorien",
+    "Elrohir": "lothlorien",
+    "Hirgon": "gondor",
+    "Imrahil": "gondor",
+    "Mouth of Sauron": "mordor",
+    "Ori": "erebor",
+    "Balin": "erebor",
+    "Gorbag": "mordor",
+    "Grishnakh": "mordor",
+    "Ugluk": "isengard",
+    "Ugthak": "isengard",
+    "Celeborn": "lothlorien",
+    "Shagrat": "mordor",
+    "Haldir": "lothlorien",
+    "Sharku": "isengard",
+}
 # Mapping LotR names to Historical/Fantasy remodeled figures
 REMODEL_MAP = {
     "Galadriel": {"name": "Zenobia", "title": "The Eternal Empress", "faction": "nocturne_carth"},
@@ -242,7 +297,9 @@ REMODEL_MAP = {
 }
 
 def parse():
-    commanders = []
+    remodeled_commanders = []
+    classic_commanders = []
+    
     # Split by double newline to get blocks
     blocks = re.split(r'\n\n', RAW_DATA.strip())
     
@@ -266,34 +323,52 @@ def parse():
                 key = key_val[0].strip().lower().replace('/', '_').replace(' ', '_')
                 attrs[key] = float(key_val[1].strip())
         
-        # Default remodeling if not in map
-        remodel = REMODEL_MAP.get(lotr_name, {
+        # Common stats
+        base_leadership = 100 + int(total_score * 2)
+        growth = {
+            "attack": 1.0 + (attrs.get("dmg_sustain", 0) * 0.5),
+            "defense": 1.0 + (attrs.get("stat_boost", 0) * 0.5),
+            "initiative": 1.0 + (attrs.get("cc", 0) * 0.5)
+        }
+        cmd_id = lotr_name.lower().replace(" ", "_").replace("-", "_").replace("&", "and")
+
+        # Remodeled entry
+        remodel_cfg = REMODEL_MAP.get(lotr_name, {
             "name": f"Ancient {lotr_name}",
             "title": "Historical Shadow",
             "faction": "neutral"
         })
-
-        commander = {
-            "id": lotr_name.lower().replace(" ", "_").replace("-", "_").replace("&", "and"),
+        remodeled_commanders.append({
+            "id": cmd_id,
             "original_name": lotr_name,
-            "name": remodel["name"],
-            "title": remodel["title"],
-            "faction": remodel["faction"],
+            "name": remodel_cfg["name"],
+            "title": remodel_cfg["title"],
+            "faction": remodel_cfg["faction"],
             "vesi_score": total_score,
             "vesi_stats": attrs,
-            "baseLeadership": 100 + int(total_score * 2),
-            "growth": {
-                "attack": 1.0 + (attrs.get("dmg_sustain", 0) * 0.5),
-                "defense": 1.0 + (attrs.get("stat_boost", 0) * 0.5),
-                "initiative": 1.0 + (attrs.get("cc", 0) * 0.5)
-            }
-        }
-        commanders.append(commander)
+            "baseLeadership": base_leadership,
+            "growth": growth
+        })
 
-    out_path = Path("fangame/Server/data/commander-templates.json")
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps({"commanders": commanders}, indent=2), encoding="utf-8")
-    print(f"Ingested {len(commanders)} commanders.")
+        # Classic LotR entry
+        classic_commanders.append({
+            "id": cmd_id,
+            "name": lotr_name,
+            "title": "Rise to War Hero",
+            "faction": CLASSIC_FACTION_MAP.get(lotr_name, "neutral"),
+            "vesi_score": total_score,
+            "vesi_stats": attrs,
+            "baseLeadership": base_leadership,
+            "growth": growth
+        })
+
+    data_dir = Path("Server/data")
+    data_dir.mkdir(parents=True, exist_ok=True)
+    
+    (data_dir / "commander-templates.json").write_text(json.dumps({"commanders": remodeled_commanders}, indent=2), encoding="utf-8")
+    (data_dir / "commander-templates-classic.json").write_text(json.dumps({"commanders": classic_commanders}, indent=2), encoding="utf-8")
+    
+    print(f"Ingested {len(classic_commanders)} commanders into both classic and remodeled formats.")
 
 if __name__ == "__main__":
     parse()

@@ -1,0 +1,1598 @@
+{
+  "units": [
+    {
+      "id": "crusher",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Orcs",
+      "range": "Melee",
+      "dmgMin": 15,
+      "dmgMax": 18,
+      "attack": 34,
+      "initiative": 5,
+      "hp": 40,
+      "defense": 42,
+      "siege": 19,
+      "maxSiege": 38000,
+      "speed": 55,
+      "specials": [
+        "Reduce Defense by 2, deal +10% dmg to Melee",
+        "Reduce defense by 4 for 1 round"
+      ],
+      "costs": {
+        "wood": 1200,
+        "ore": 1500,
+        "grain": 1600,
+        "contribution": 0
+      },
+      "name": "Crusher",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "raider",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Orcs",
+      "range": "Melee",
+      "dmgMin": 31,
+      "dmgMax": 37,
+      "attack": 49,
+      "initiative": 15,
+      "hp": 76,
+      "defense": 32,
+      "siege": 17,
+      "maxSiege": 17000,
+      "speed": 133,
+      "specials": [
+        "Dmg +10% vs Mounted",
+        "Dmg received -2%"
+      ],
+      "costs": {
+        "wood": 2000,
+        "ore": 3025,
+        "grain": 3600,
+        "contribution": 0
+      },
+      "name": "Raider",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "reaper",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Orcs",
+      "range": "Melee",
+      "dmgMin": 14,
+      "dmgMax": 22,
+      "attack": 44,
+      "initiative": 8,
+      "hp": 34,
+      "defense": 36,
+      "siege": 18,
+      "maxSiege": 36000,
+      "speed": 76,
+      "specials": [
+        "Round 5, Atk +15",
+        "+120% dmg to one formation"
+      ],
+      "costs": {
+        "wood": 2250,
+        "ore": 1400,
+        "grain": 1750,
+        "contribution": 0
+      },
+      "name": "Reaper",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "morgul_arbalest",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Orcs",
+      "range": "Ranged",
+      "dmgMin": 14,
+      "dmgMax": 23,
+      "attack": 44,
+      "initiative": 6,
+      "hp": 32,
+      "defense": 38,
+      "siege": 10,
+      "maxSiege": 20000,
+      "speed": 66,
+      "specials": [
+        "20% to gain Follow Up",
+        "+20% Poison Damage"
+      ],
+      "costs": {
+        "wood": 1750,
+        "ore": 1400,
+        "grain": 2250,
+        "contribution": 0
+      },
+      "name": "Morgul Arbalest",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "warlord",
+      "tier": 4,
+      "size": "Medium",
+      "supply": 25,
+      "formationSize": 80,
+      "race": "Orcs",
+      "range": "Melee",
+      "dmgMin": 35,
+      "dmgMax": 40,
+      "attack": 60,
+      "initiative": 5,
+      "hp": 90,
+      "defense": 64,
+      "siege": 35,
+      "maxSiege": 2800,
+      "speed": 50,
+      "specials": [
+        "ignore 20% defence",
+        "deal extra 20% to 1 additional enemy"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Warlord",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "berserker",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Uruk-Hai",
+      "range": "Melee",
+      "dmgMin": 15,
+      "dmgMax": 19,
+      "attack": 41,
+      "initiative": 13,
+      "hp": 40,
+      "defense": 35,
+      "siege": 16,
+      "maxSiege": 32000,
+      "speed": 75,
+      "specials": [
+        "Dmg +20%, decrease each round",
+        "Ignore stun, Defense +4"
+      ],
+      "costs": {
+        "wood": 1600,
+        "ore": 1700,
+        "grain": 2100,
+        "contribution": 0
+      },
+      "name": "Berserker",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "alchemist",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Uruk-Hai",
+      "range": "Melee",
+      "dmgMin": 15,
+      "dmgMax": 28,
+      "attack": 46,
+      "initiative": 8,
+      "hp": 30,
+      "defense": 35,
+      "siege": 30,
+      "maxSiege": 60000,
+      "speed": 66,
+      "specials": [
+        "+20% Burn Damage"
+      ],
+      "costs": {
+        "wood": 1550,
+        "ore": 1400,
+        "grain": 2450,
+        "contribution": 0
+      },
+      "name": "Alchemist",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "snaga_thrak",
+      "tier": 4,
+      "size": "Small",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Uruk-Hai",
+      "range": "Melee",
+      "dmgMin": 20,
+      "dmgMax": 66,
+      "attack": 84,
+      "initiative": 11,
+      "hp": 72,
+      "defense": 84,
+      "siege": 25,
+      "maxSiege": 25000,
+      "speed": 80,
+      "specials": [
+        "Madness immune, Initiative +4",
+        "Deal 20% dmg to ally, +40% dmg"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Snaga Thrak",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "sniper",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Uruk-Hai",
+      "range": "Ranged",
+      "dmgMin": 19,
+      "dmgMax": 21,
+      "attack": 45,
+      "initiative": 9,
+      "hp": 32,
+      "defense": 35,
+      "siege": 15,
+      "maxSiege": 30000,
+      "speed": 65,
+      "specials": [
+        "Prioritize ranged, Dmg +10%",
+        "Dmg from enemy melee -10%"
+      ],
+      "costs": {
+        "wood": 1400,
+        "ore": 1750,
+        "grain": 2250,
+        "contribution": 0
+      },
+      "name": "Sniper",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "uruk_hai_pikeman",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Uruk-Hai",
+      "range": "Melee",
+      "dmgMin": 12,
+      "dmgMax": 21,
+      "attack": 43,
+      "initiative": 7,
+      "hp": 38,
+      "defense": 54,
+      "siege": 17,
+      "maxSiege": 34000,
+      "speed": 65,
+      "specials": [
+        "normal atks deal +10% to 2 enemy mounted units",
+        "-10.0% dmg from melee units"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Uruk-Hai Pikeman",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "corsair",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 13,
+      "dmgMax": 24,
+      "attack": 42,
+      "initiative": 10,
+      "hp": 35,
+      "defense": 39,
+      "siege": 21,
+      "maxSiege": 42000,
+      "speed": 88,
+      "specials": [
+        "10.0% chance to Evade damage.",
+        "atks deal +10% Burn dmg"
+      ],
+      "costs": {
+        "wood": 2250,
+        "ore": 1850,
+        "grain": 2400,
+        "contribution": 0
+      },
+      "name": "Corsair",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "dragoon",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 29,
+      "dmgMax": 35,
+      "attack": 46,
+      "initiative": 13,
+      "hp": 82,
+      "defense": 36,
+      "siege": 21,
+      "maxSiege": 21000,
+      "speed": 122,
+      "specials": [
+        "Dmg received -2%",
+        "Dmg from ranged -10%"
+      ],
+      "costs": {
+        "wood": 1725,
+        "ore": 3025,
+        "grain": 3875,
+        "contribution": 0
+      },
+      "name": "Dragoon",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "fallen",
+      "tier": 4,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 27,
+      "dmgMax": 37,
+      "attack": 62,
+      "initiative": 14,
+      "hp": 92,
+      "defense": 58,
+      "siege": 24,
+      "maxSiege": 24000,
+      "speed": 134,
+      "specials": [
+        "Dmg +20% (max) after taking dmg",
+        "Dmg received -2%"
+      ],
+      "costs": {
+        "wood": 3250,
+        "ore": 5150,
+        "grain": 6450,
+        "contribution": 0
+      },
+      "name": "Fallen",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "halberdier",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 17,
+      "dmgMax": 19,
+      "attack": 42,
+      "initiative": 8,
+      "hp": 35,
+      "defense": 38,
+      "siege": 17,
+      "maxSiege": 34000,
+      "speed": 65,
+      "specials": [
+        "+4% dmg per type of Small Unit",
+        "Counterattack damage +10.0%."
+      ],
+      "costs": {
+        "wood": 1650,
+        "ore": 1750,
+        "grain": 2000,
+        "contribution": 0
+      },
+      "name": "Halberdier",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "war_chariot",
+      "tier": 4,
+      "size": "Large",
+      "supply": 25,
+      "formationSize": 80,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 200,
+      "dmgMax": 270,
+      "attack": 88,
+      "initiative": 10,
+      "hp": 1300,
+      "defense": 88,
+      "siege": 415,
+      "maxSiege": 33200,
+      "speed": 95,
+      "specials": [
+        "Dmg to Melee Units +10.0%.",
+        "Rnd 1 &6, deal 40% dmg, cause bleed",
+        "-10% Physical dmg"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "War Chariot",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "champion",
+      "tier": 4,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 31,
+      "dmgMax": 34,
+      "attack": 84,
+      "initiative": 13,
+      "hp": 90,
+      "defense": 84,
+      "siege": 20,
+      "maxSiege": 20000,
+      "speed": 145,
+      "specials": [
+        "Dmg received -2%",
+        "Atk highest tier enemy, next dmg against target +20%"
+      ],
+      "costs": {
+        "wood": 2750,
+        "ore": 6400,
+        "grain": 5700,
+        "contribution": 0
+      },
+      "name": "Champion",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "mountain_troll",
+      "tier": 3,
+      "size": "Large",
+      "supply": 25,
+      "formationSize": 80,
+      "race": "Trolls",
+      "range": "Melee",
+      "dmgMin": 300,
+      "dmgMax": 360,
+      "attack": 36,
+      "initiative": 3,
+      "hp": 1200,
+      "defense": 44,
+      "siege": 500,
+      "maxSiege": 40000,
+      "speed": 42,
+      "specials": [
+        "Taunt first 3 rounds",
+        "-10% Physical dmg"
+      ],
+      "costs": {
+        "wood": 1780,
+        "ore": 1760,
+        "grain": 5100,
+        "contribution": 0
+      },
+      "name": "Mountain Troll",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "ravager",
+      "tier": 4,
+      "size": "Large",
+      "supply": 25,
+      "formationSize": 80,
+      "race": "Trolls",
+      "range": "Melee",
+      "dmgMin": 360,
+      "dmgMax": 380,
+      "attack": 92,
+      "initiative": 3,
+      "hp": 1200,
+      "defense": 76,
+      "siege": 620,
+      "maxSiege": 49600,
+      "speed": 40,
+      "specials": [
+        "-10% Physical dmg",
+        "20% to attack 2 formations"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Ravager",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "dunlending_warrior",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 18,
+      "dmgMax": 22,
+      "attack": 38,
+      "initiative": 8,
+      "hp": 38,
+      "defense": 38,
+      "siege": 15,
+      "maxSiege": 34000,
+      "speed": 95,
+      "specials": [
+        "Siege +2",
+        "Initiative +4 vs structures, gain resources"
+      ],
+      "costs": {
+        "wood": 1000,
+        "ore": 1200,
+        "grain": 2100,
+        "contribution": 1
+      },
+      "name": "Dunlending Warrior",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "half_troll",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 17,
+      "dmgMax": 22,
+      "attack": 42,
+      "initiative": 2,
+      "hp": 40,
+      "defense": 39,
+      "siege": 15,
+      "maxSiege": 30000,
+      "speed": 85,
+      "specials": [
+        "Normal atks inflict Bleed",
+        "Ignores Stun. Focus damage received -30.0%"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Half-troll",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "vanguard",
+      "tier": 4,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Evil Men",
+      "range": "Melee",
+      "dmgMin": 35,
+      "dmgMax": 40,
+      "attack": 60,
+      "initiative": 4,
+      "hp": 85,
+      "defense": 70,
+      "siege": 28,
+      "maxSiege": 28000,
+      "speed": 65,
+      "specials": [
+        "Physical Damage received -15.0%.",
+        "+30% dmg when undead present"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Vanguard",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "hill_troll",
+      "tier": 3,
+      "size": "Large",
+      "supply": 25,
+      "formationSize": 80,
+      "race": "Trolls",
+      "range": "Melee",
+      "dmgMin": 420,
+      "dmgMax": 460,
+      "attack": 42,
+      "initiative": 3,
+      "hp": 900,
+      "defense": 42,
+      "siege": 350,
+      "maxSiege": 28000,
+      "speed": 50,
+      "specials": [
+        "Def +30%, dmg +30% after receving dmg 10x",
+        "-10% Physical dmg"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Hill-Troll",
+      "faction": "steppe_stormhorde"
+    },
+    {
+      "id": "fellbeast",
+      "tier": 4,
+      "size": "Large",
+      "supply": 20,
+      "formationSize": 100,
+      "race": "Beasts",
+      "range": "Melee",
+      "dmgMin": 180,
+      "dmgMax": 300,
+      "attack": 60,
+      "initiative": 19,
+      "hp": 1040,
+      "defense": 40,
+      "siege": 50,
+      "maxSiege": 5000,
+      "speed": 250,
+      "specials": [
+        "Dmg from Melee -40%, Dmg from Range +25%",
+        "atks do psn dmg, +30% cont. psn dmg 2 rounds"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Fellbeast",
+      "faction": "verdant_covenant"
+    },
+    {
+      "id": "great_beast",
+      "tier": 3,
+      "size": "Large",
+      "supply": 25,
+      "formationSize": 80,
+      "race": "Beasts",
+      "range": "Melee",
+      "dmgMin": 325,
+      "dmgMax": 350,
+      "attack": 36,
+      "initiative": 2,
+      "hp": 1150,
+      "defense": 44,
+      "siege": 500,
+      "maxSiege": 40000,
+      "speed": 48,
+      "specials": [
+        "Each round 3 allied ranged +20% dmg",
+        "Defense +2, taunt 3 enemy formations",
+        "Phys damage received -10%"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Great Beast",
+      "faction": "verdant_covenant"
+    },
+    {
+      "id": "mumakil",
+      "tier": 4,
+      "size": "Large",
+      "supply": 100,
+      "formationSize": 20,
+      "race": "Beasts",
+      "range": "Melee",
+      "dmgMin": 1000,
+      "dmgMax": 1200,
+      "attack": 80,
+      "initiative": 8,
+      "hp": 7000,
+      "defense": 80,
+      "siege": 4000,
+      "maxSiege": 80000,
+      "speed": 83,
+      "specials": [
+        "Phys damage received -10%",
+        "Atk 3 enemies and 2 allies"
+      ],
+      "costs": {
+        "wood": 12399,
+        "ore": 12399,
+        "grain": 21331,
+        "contribution": 1
+      },
+      "name": "Mumakil",
+      "faction": "verdant_covenant"
+    },
+    {
+      "id": "barrow_wight",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Undead",
+      "range": "Melee",
+      "dmgMin": 13,
+      "dmgMax": 15,
+      "attack": 36,
+      "initiative": 8,
+      "hp": 38,
+      "defense": 36,
+      "siege": 11,
+      "maxSiege": 22000,
+      "speed": 41,
+      "specials": [
+        "Recover 20% hp each round.",
+        "All wounded units die after battle"
+      ],
+      "costs": {
+        "wood": 3500,
+        "ore": 2800,
+        "grain": 200,
+        "contribution": 1
+      },
+      "name": "Barrow-wight",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "oathbreaker",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Undead",
+      "range": "Melee",
+      "dmgMin": 16,
+      "dmgMax": 17,
+      "attack": 20,
+      "initiative": 13,
+      "hp": 20,
+      "defense": 20,
+      "siege": 15,
+      "maxSiege": 30000,
+      "speed": 92,
+      "specials": [
+        "Phys dmg -20%, affected by Heal Block",
+        "Normal attack does Focus Dmg",
+        "All wounded units die after battle"
+      ],
+      "costs": {
+        "wood": 2150,
+        "ore": 2150,
+        "grain": 2150,
+        "contribution": 1
+      },
+      "name": "Oathbreaker",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "wraith",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Undead",
+      "range": "Melee",
+      "dmgMin": 19,
+      "dmgMax": 20,
+      "attack": 35,
+      "initiative": 9,
+      "hp": 30,
+      "defense": 35,
+      "siege": 10,
+      "maxSiege": 20000,
+      "speed": 80,
+      "specials": [
+        "normal atks reduce target def 10%, up to 50%",
+        "cannot be targeted if has melee ally",
+        "All wounded units die after battle"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Wraith",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "cataphract",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 24,
+      "dmgMax": 32,
+      "attack": 32,
+      "initiative": 14,
+      "hp": 88,
+      "defense": 48,
+      "siege": 23,
+      "maxSiege": 23000,
+      "speed": 110,
+      "specials": [
+        "Dmg received -2%",
+        "Dmg from enemy melee -10%"
+      ],
+      "costs": {
+        "wood": 1950,
+        "ore": 2775,
+        "grain": 3900,
+        "contribution": 0
+      },
+      "name": "Cataphract",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "cavalier",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 31,
+      "dmgMax": 39,
+      "attack": 42,
+      "initiative": 15,
+      "hp": 74,
+      "defense": 34,
+      "siege": 22,
+      "maxSiege": 22000,
+      "speed": 139,
+      "specials": [
+        "Dmg received -2%",
+        "Dmg +50% once"
+      ],
+      "costs": {
+        "wood": 2275,
+        "ore": 2700,
+        "grain": 3650,
+        "contribution": 0
+      },
+      "name": "Cavalier",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "dunedain",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 15,
+      "dmgMax": 22,
+      "attack": 46,
+      "initiative": 14,
+      "hp": 36,
+      "defense": 36,
+      "siege": 15,
+      "maxSiege": 30000,
+      "speed": 122,
+      "specials": [
+        "Prioritize ranged, Dmg +10%",
+        "Dmg from ranged -10%"
+      ],
+      "costs": {
+        "wood": 1950,
+        "ore": 2100,
+        "grain": 2400,
+        "contribution": 0
+      },
+      "name": "Dunedain",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "guard_of_the_tower",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 14,
+      "dmgMax": 17,
+      "attack": 34,
+      "initiative": 7,
+      "hp": 40,
+      "defense": 46,
+      "siege": 18,
+      "maxSiege": 36000,
+      "speed": 59,
+      "specials": [
+        "+4% dmg per type of Small Unit",
+        "50% chance reduce phys dmg 10%"
+      ],
+      "costs": {
+        "wood": 1400,
+        "ore": 1800,
+        "grain": 2200,
+        "contribution": 0
+      },
+      "name": "Guard of the Tower",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "marshal",
+      "tier": 4,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 30,
+      "dmgMax": 36,
+      "attack": 66,
+      "initiative": 16,
+      "hp": 90,
+      "defense": 78,
+      "siege": 25,
+      "maxSiege": 25000,
+      "speed": 157,
+      "specials": [
+        "Dmg +25.0%, reduced 1/3 each instance dmg dealt.",
+        "Dmg received -2%"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Marshal",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "sharpshooter",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Men",
+      "range": "Ranged",
+      "dmgMin": 18,
+      "dmgMax": 24,
+      "attack": 38,
+      "initiative": 7,
+      "hp": 32,
+      "defense": 38,
+      "siege": 11,
+      "maxSiege": 22000,
+      "speed": 64,
+      "specials": [
+        "Dmg +20% first two rounds"
+      ],
+      "costs": {
+        "wood": 1900,
+        "ore": 1500,
+        "grain": 2000,
+        "contribution": 0
+      },
+      "name": "Sharpshooter",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "swan_knight",
+      "tier": 4,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 26,
+      "dmgMax": 34,
+      "attack": 71,
+      "initiative": 14,
+      "hp": 98,
+      "defense": 88,
+      "siege": 28,
+      "maxSiege": 28000,
+      "speed": 128,
+      "specials": [
+        "Dmg received -2%",
+        "First 3 rounds, Def +20, Protect 2 allies"
+      ],
+      "costs": {
+        "wood": 3000,
+        "ore": 4950,
+        "grain": 6850,
+        "contribution": 0
+      },
+      "name": "Swan Knight",
+      "faction": "byzantine_luminants"
+    },
+    {
+      "id": "ranger_of_the_north",
+      "tier": 4,
+      "size": "Small",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Men",
+      "range": "Ranged",
+      "dmgMin": 35,
+      "dmgMax": 38,
+      "attack": 60,
+      "initiative": 14,
+      "hp": 82,
+      "defense": 76,
+      "siege": 15,
+      "maxSiege": 15000,
+      "speed": 100,
+      "specials": [
+        "+10% dmg dealt, -10% dmg received on non-structure land",
+        "Defense +4, Protect 1 allied formation"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Ranger of the North",
+      "faction": "byzantine_luminants"
+    },
+    {
+      "id": "noldor_longshot",
+      "tier": 4,
+      "size": "Small",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Elves",
+      "range": "Ranged",
+      "dmgMin": 42,
+      "dmgMax": 45,
+      "attack": 80,
+      "initiative": 8,
+      "hp": 62,
+      "defense": 63,
+      "siege": 16,
+      "maxSiege": 16000,
+      "speed": 69,
+      "specials": [
+        "First 3 rounds has pursuit",
+        "no normal atk, volley rounds 1,4,5,10"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Noldor Longshot",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "bow_knight",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Elves",
+      "range": "Ranged",
+      "dmgMin": 34,
+      "dmgMax": 40,
+      "attack": 44,
+      "initiative": 15,
+      "hp": 70,
+      "defense": 64,
+      "siege": 16,
+      "maxSiege": 16000,
+      "speed": 127,
+      "specials": [
+        "Dmg received -2%",
+        "30% chance to increase dmg +30%."
+      ],
+      "costs": {
+        "wood": 2950,
+        "ore": 2700,
+        "grain": 2975,
+        "contribution": 0
+      },
+      "name": "Bow Knight",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "herald",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Elves",
+      "range": "Melee",
+      "dmgMin": 15,
+      "dmgMax": 26,
+      "attack": 65,
+      "initiative": 14,
+      "hp": 36,
+      "defense": 95,
+      "siege": 18,
+      "maxSiege": 36000,
+      "speed": 60,
+      "specials": [
+        "Counterattack dmg +20.0%, normal atk dmg -10.0%."
+      ],
+      "costs": {
+        "wood": 1700,
+        "ore": 1700,
+        "grain": 20003,
+        "contribution": 0
+      },
+      "name": "Herald",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "marchwarden",
+      "tier": 4,
+      "size": "Small",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Elves",
+      "range": "Ranged",
+      "dmgMin": 47,
+      "dmgMax": 48,
+      "attack": 116,
+      "initiative": 15,
+      "hp": 66,
+      "defense": 59,
+      "siege": 17,
+      "maxSiege": 17000,
+      "speed": 99,
+      "specials": [
+        "First 3 rounds has pursuit",
+        "Ignore stun, Defense +4"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Marchwarden",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "sentinel",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Elves",
+      "range": "Ranged",
+      "dmgMin": 23,
+      "dmgMax": 25,
+      "attack": 49,
+      "initiative": 9,
+      "hp": 26,
+      "defense": 35,
+      "siege": 12,
+      "maxSiege": 24000,
+      "speed": 71,
+      "specials": [
+        "100% chance evade"
+      ],
+      "costs": {
+        "wood": 1950,
+        "ore": 1700,
+        "grain": 1750,
+        "contribution": 0
+      },
+      "name": "Sentinel",
+      "faction": "byzantine_luminants"
+    },
+    {
+      "id": "guardian",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Dwarves",
+      "range": "Melee",
+      "dmgMin": 7,
+      "dmgMax": 20,
+      "attack": 30,
+      "initiative": 5,
+      "hp": 45,
+      "defense": 55,
+      "siege": 20,
+      "maxSiege": 40000,
+      "speed": 52,
+      "specials": [
+        "50% chance to reduce phys dmg 10%",
+        "atks +20% phys dmg",
+        "Burn Damage received -15.0%."
+      ],
+      "costs": {
+        "wood": 1400,
+        "ore": 2000,
+        "grain": 2000,
+        "contribution": 0
+      },
+      "name": "Guardian",
+      "faction": "iron_dominion"
+    },
+    {
+      "id": "iron_warrior",
+      "tier": 4,
+      "size": "Small",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Dwarves",
+      "range": "Melee",
+      "dmgMin": 30,
+      "dmgMax": 34,
+      "attack": 84,
+      "initiative": 10,
+      "hp": 86,
+      "defense": 106,
+      "siege": 42,
+      "maxSiege": 42000,
+      "speed": 49,
+      "specials": [
+        "Physical Damage received -15.0%.",
+        "Damage to Melee Units +10.0%."
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Iron Warrior",
+      "faction": "iron_dominion"
+    },
+    {
+      "id": "master_thrower",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Dwarves",
+      "range": "Ranged",
+      "dmgMin": 9,
+      "dmgMax": 29,
+      "attack": 56,
+      "initiative": 10,
+      "hp": 35,
+      "defense": 39,
+      "siege": 16,
+      "maxSiege": 32000,
+      "speed": 60,
+      "specials": [
+        "Damage to Melee Units +10.0%.",
+        "Dmg to Large units +10%"
+      ],
+      "costs": {
+        "wood": 1700,
+        "ore": 1750,
+        "grain": 1950,
+        "contribution": 0
+      },
+      "name": "Master Thrower",
+      "faction": "iron_dominion"
+    },
+    {
+      "id": "ram_rider",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Dwarves",
+      "range": "Melee",
+      "dmgMin": 26,
+      "dmgMax": 33,
+      "attack": 42,
+      "initiative": 12,
+      "hp": 86,
+      "defense": 52,
+      "siege": 27,
+      "maxSiege": 27000,
+      "speed": 102,
+      "specials": [
+        "Dmg received -2%",
+        "Reduce defense by 8 for 1 round",
+        "Burn Damage received -15.0%."
+      ],
+      "costs": {
+        "wood": 1400,
+        "ore": 2250,
+        "grain": 2825,
+        "contribution": 0
+      },
+      "name": "Ram Rider",
+      "faction": "iron_dominion"
+    },
+    {
+      "id": "bree_rider",
+      "tier": 3,
+      "size": "Medium",
+      "supply": 2,
+      "formationSize": 1000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 32,
+      "dmgMax": 37,
+      "attack": 33,
+      "initiative": 14,
+      "hp": 76,
+      "defense": 46,
+      "siege": 20,
+      "maxSiege": 20000,
+      "speed": 121,
+      "specials": [
+        "Dmg received -2%",
+        "Remove a debuff from self each round"
+      ],
+      "costs": {
+        "wood": 2000,
+        "ore": 2650,
+        "grain": 3950,
+        "contribution": 1
+      },
+      "name": "Bree Rider",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "dale_watchman",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Men",
+      "range": "Ranged",
+      "dmgMin": 18,
+      "dmgMax": 20,
+      "attack": 40,
+      "initiative": 10,
+      "hp": 30,
+      "defense": 40,
+      "siege": 12,
+      "maxSiege": 24000,
+      "speed": 60,
+      "specials": [
+        "+10% dmg and +10% def on Structure land",
+        "+30% dmg vs Beasts and Dragons"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Dale Watchman",
+      "faction": "byzantine_luminants"
+    },
+    {
+      "id": "seafarer",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Men",
+      "range": "Melee",
+      "dmgMin": 18,
+      "dmgMax": 21,
+      "attack": 34,
+      "initiative": 4,
+      "hp": 33,
+      "defense": 48,
+      "siege": 13,
+      "maxSiege": 26000,
+      "speed": 85,
+      "specials": [
+        "dmg from enemy commander -30%",
+        "+50% dmg done at crossings"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Seafarer",
+      "faction": "auric_legion"
+    },
+    {
+      "id": "woses_hunter",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Men",
+      "range": "Ranged",
+      "dmgMin": 15,
+      "dmgMax": 20,
+      "attack": 40,
+      "initiative": 9,
+      "hp": 40,
+      "defense": 40,
+      "siege": 10,
+      "maxSiege": 20000,
+      "speed": 50,
+      "specials": [
+        "Normal attacks deal +20% poison dmg",
+        "First 4 rounds, gain Initiative",
+        "receive -30.0% poison damage"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Woses Hunter",
+      "faction": "byzantine_luminants"
+    },
+    {
+      "id": "keeper",
+      "tier": 3,
+      "size": "Small",
+      "supply": 1,
+      "formationSize": 2000,
+      "race": "Elves",
+      "range": "Melee",
+      "dmgMin": 20,
+      "dmgMax": 25,
+      "attack": 48,
+      "initiative": 5,
+      "hp": 25,
+      "defense": 48,
+      "siege": 5,
+      "maxSiege": 10000,
+      "speed": 105,
+      "specials": [
+        "Normal attacks deal +20% focus dmg",
+        "deal extra dmg if enemy army is only one unit type"
+      ],
+      "costs": {
+        "wood": 3000,
+        "ore": 1370,
+        "grain": 2150,
+        "contribution": 1
+      },
+      "name": "Keeper",
+      "faction": "nocturne_carth"
+    },
+    {
+      "id": "beornings",
+      "tier": 3,
+      "size": "Large",
+      "supply": 25,
+      "formationSize": 80,
+      "race": "Beornings",
+      "range": "Melee",
+      "dmgMin": 350,
+      "dmgMax": 420,
+      "attack": 40,
+      "initiative": 4,
+      "hp": 1000,
+      "defense": 40,
+      "siege": 600,
+      "maxSiege": 48000,
+      "speed": 62,
+      "specials": [
+        "Round 4 remove debuff, Dmg +20%",
+        "Phys damage received -10%"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 1
+      },
+      "name": "Beornings",
+      "faction": "verdant_covenant"
+    },
+    {
+      "id": "eagles",
+      "tier": 4,
+      "size": "Large",
+      "supply": 20,
+      "formationSize": 100,
+      "race": "Beasts",
+      "range": "Melee",
+      "dmgMin": 200,
+      "dmgMax": 300,
+      "attack": 70,
+      "initiative": 20,
+      "hp": 1100,
+      "defense": 30,
+      "siege": 45,
+      "maxSiege": 4500,
+      "speed": 300,
+      "specials": [
+        "Dmg from Melee -40%, Dmg from Range +25%",
+        "Initiative stat boosts dmg 10%"
+      ],
+      "costs": {
+        "wood": 4480,
+        "ore": 0,
+        "grain": 3440,
+        "contribution": 1
+      },
+      "name": "Eagles",
+      "faction": "verdant_covenant"
+    },
+    {
+      "id": "ents",
+      "tier": 4,
+      "size": "Large",
+      "supply": 50,
+      "formationSize": 40,
+      "race": "Ents",
+      "range": "Melee",
+      "dmgMin": 600,
+      "dmgMax": 700,
+      "attack": 60,
+      "initiative": 1,
+      "hp": 2400,
+      "defense": 80,
+      "siege": 900,
+      "maxSiege": 36000,
+      "speed": 15,
+      "specials": [
+        "-Psn dmg received, +50% Burn dmg",
+        "First 3 rounds, Def +20, Protect 2 allies",
+        "Phys damage received -10%"
+      ],
+      "costs": {
+        "wood": 0,
+        "ore": 0,
+        "grain": 0,
+        "contribution": 0
+      },
+      "name": "Ents",
+      "faction": "verdant_covenant"
+    }
+  ]
+}

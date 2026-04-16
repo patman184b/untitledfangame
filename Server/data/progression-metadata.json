@@ -1,0 +1,37 @@
+{
+  "respect_bonuses": {
+    "R1": { "skill_points": 8 },
+    "R2": { "skill_points": 3 },
+    "R3": { "skill_points": 8 },
+    "R5": { "unit_damage_bonus": 0.05 },
+    "R6": { "attack": 10, "focus": 10, "defense": 10 },
+    "R8": { "attack": 10, "focus": 10, "defense": 10 },
+    "R9": { "unit_damage_bonus": 0.05 },
+    "R10": { "attack": 10, "focus": 10, "defense": 10, "unlock_relic": true },
+    "Z1": { "command": 30, "damage": 3, "hp": 300 }
+  },
+  "healing_scaling": {
+    "balin": 2.4,
+    "undying": 2.0,
+    "cestaro": 1.0,
+    "azru_khor": 0.8,
+    "dwalin": 0.8,
+    "ori": 0.8,
+    "falgin": 0.8,
+    "beruthiel": 0.7,
+    "gorbag": 0.7,
+    "galadriel": 0.7,
+    "king_of_the_dead": 0.6,
+    "sunind": 0.5,
+    "hirgon": 0.5,
+    "cirdan": 0.477,
+    "arwen": 0.45,
+    "radagast": 0.4,
+    "aragorn_kingofmen": 0.35,
+    "yusraa": 0.3,
+    "sharku": 0.3,
+    "gandalfthegrey": 0.3,
+    "eowyn": 0.14,
+    "denethor": 0.1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "damage": {
+    "physical_divisor": 2.03,
+    "focus_divisor": 2.95
+  },
+  "siege": {
+    "SS": { "a": 500, "b": 733.33 },
+    "S": { "a": 500, "b": 733.33 },
+    "A": { "a": 325, "b": 750 },
+    "B": { "a": 325, "b": 1500 },
+    "C": { "a": 325, "b": 7500 },
+    "D": { "a": 325, "b": 30000 }
+  },
+  "command": {
+    "scaling_divisor": 1000,
+    "heal_bonus_divisor": 2500
+  }
+}

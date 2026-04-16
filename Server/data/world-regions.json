@@ -1,0 +1,53 @@
+{
+  "regions": [
+    {
+      "id": "italia",
+      "name": "The Italian Peninsula",
+      "faction_id": "auric_legion",
+      "capital": { "name": "Rome", "q": 45, "r": 35 },
+      "bounds": { "minQ": 40, "maxQ": 55, "minR": 30, "maxR": 45 }
+    },
+    {
+      "id": "africa",
+      "name": "North African Coast",
+      "faction_id": "nocturne_carth",
+      "capital": { "name": "Carthage", "q": 35, "r": 25 },
+      "bounds": { "minQ": 20, "maxQ": 45, "minR": 20, "maxR": 30 }
+    },
+    {
+      "id": "hellas",
+      "name": "Hellas & Anatolia",
+      "faction_id": "byzantine_luminants",
+      "capital": { "name": "Athens", "q": 65, "r": 30 },
+      "bounds": { "minQ": 60, "maxQ": 85, "minR": 25, "maxR": 40 }
+    },
+    {
+      "id": "aegyptus",
+      "name": "Aegyptus",
+      "faction_id": "sun_kingdom",
+      "capital": { "name": "Alexandria", "q": 75, "r": 15 },
+      "bounds": { "minQ": 70, "maxQ": 90, "minR": 10, "maxR": 25 }
+    },
+    {
+      "id": "gaul",
+      "name": "Gaulish Forests",
+      "faction_id": "verdant_covenant",
+      "capital": { "name": "Gergovia", "q": 30, "r": 45 },
+      "bounds": { "minQ": 15, "maxQ": 40, "minR": 40, "maxR": 55 }
+    },
+    {
+      "id": "germania",
+      "name": "The Outer Reaches",
+      "faction_id": "iron_dominion",
+      "capital": { "name": "Teutoburg", "q": 55, "r": 50 },
+      "bounds": { "minQ": 45, "maxQ": 70, "minR": 45, "maxR": 60 }
+    },
+    {
+      "id": "scythia",
+      "name": "The Storm Steppe",
+      "faction_id": "steppe_stormhorde",
+      "capital": { "name": "Panticapaeum", "q": 85, "r": 50 },
+      "bounds": { "minQ": 75, "maxQ": 100, "minR": 40, "maxR": 60 }
+    }
+  ]
+}

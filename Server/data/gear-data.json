@@ -1,0 +1,103 @@
+{
+  "gear": [
+    {
+      "id": "anduril",
+      "name": "Andúril – Flame of the West",
+      "rarity": "legendary",
+      "restricted_to": "aragorn",
+      "slot": "weapon",
+      "description": "The reforged blade of Narsil. Wielded only by Aragorn.",
+      "base_stats": { "might_bonus": 40, "infantry_attack_pct": 20 },
+      "refine_levels": 5,
+      "strengthen_max": 10,
+      "set_id": "kings_of_men"
+    },
+    {
+      "id": "elven_longbow",
+      "name": "Elven Longbow of Mirkwood",
+      "rarity": "legendary",
+      "restricted_to": "legolas",
+      "slot": "weapon",
+      "description": "Crafted in Mirkwood for Legolas. Unmatched range and precision.",
+      "base_stats": { "might_bonus": 30, "ranged_attack_pct": 25, "speed_bonus": 15 },
+      "refine_levels": 5,
+      "strengthen_max": 10,
+      "set_id": "elven_grace"
+    },
+    {
+      "id": "staff_of_the_grey",
+      "name": "Staff of the Grey Pilgrim",
+      "rarity": "legendary",
+      "restricted_to": "gandalf_the_grey",
+      "slot": "weapon",
+      "description": "Gandalf's walking staff. Channels immense magical power.",
+      "base_stats": { "focus_bonus": 50, "all_defense_pct": 10 },
+      "refine_levels": 5,
+      "strengthen_max": 10,
+      "set_id": "mithrandir_mantle"
+    },
+    {
+      "id": "dwarven_slingshot",
+      "name": "Dwarven Slingshot",
+      "rarity": "epic",
+      "restricted_to": null,
+      "slot": "accessory",
+      "description": "A masterwork dwarf-forged ranged skirmisher's tool. Any commander can wield it.",
+      "base_stats": { "ranged_attack_pct": 10 },
+      "proc": { "chance": 0.15, "effect": "ranged_volley_extra", "description": "15% chance per round to fire an extra ranged volley" },
+      "refine_levels": 4,
+      "strengthen_max": 10,
+      "set_id": null
+    },
+    {
+      "id": "mithril_chestplate",
+      "name": "Mithril Chestplate",
+      "rarity": "epic",
+      "restricted_to": null,
+      "slot": "armor",
+      "description": "Light as a feather and stronger than dragon scales.",
+      "base_stats": { "all_defense_pct": 20, "speed_bonus": 5 },
+      "refine_levels": 4,
+      "strengthen_max": 10,
+      "set_id": "mithril_vanguard"
+    },
+    {
+      "id": "gondorian_plate",
+      "name": "Gondorian Plate Armor",
+      "rarity": "uncommon",
+      "restricted_to": null,
+      "slot": "armor",
+      "description": "Standard-issue plate of the Gondorian army.",
+      "base_stats": { "infantry_defense_pct": 10 },
+      "refine_levels": 2,
+      "strengthen_max": 10,
+      "set_id": null
+    },
+    {
+      "id": "ranger_cloak",
+      "name": "Ranger's Elven Cloak",
+      "rarity": "uncommon",
+      "restricted_to": null,
+      "slot": "armor",
+      "description": "Woven in Lórien. Grants concealment in the wild.",
+      "base_stats": { "speed_bonus": 10, "all_defense_pct": 5 },
+      "refine_levels": 2,
+      "strengthen_max": 10,
+      "set_id": "elven_grace"
+    }
+  ],
+  "gear_sets": [
+    {
+      "id": "mithril_vanguard",
+      "name": "Mithril Vanguard",
+      "pieces": ["mithril_chestplate"],
+      "bonus_2pc": "+15% all defense when 2 mithril pieces equipped"
+    },
+    {
+      "id": "elven_grace",
+      "name": "Elven Grace",
+      "pieces": ["elven_longbow", "ranger_cloak"],
+      "bonus_2pc": "+10% march speed and ranged damage"
+    }
+  ]
+}

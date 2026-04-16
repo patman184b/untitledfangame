@@ -1,0 +1,20 @@
+{
+  "tile_affluence": {
+    "1": 1, "2": 10, "3": 15, "4": 25, "5": 35,
+    "6": 65, "7": 95, "8": 170, "9": 200, "10": 260,
+    "11": 300, "12": 340, "13": 390
+  },
+  "mobs": {
+    "6": { "defenders": 2, "xp": 864, "rewards": ["480 Grain", "8 Contribution", "5 min speedup"] },
+    "10": { "defenders": 2, "xp": 1520, "rewards": ["720 Grain", "8 Contribution", "5 min speedup", "Juicy Meat"] },
+    "20": { "defenders": 3, "xp": 7920, "rewards": ["1280 Grain", "8 Contribution", "5 min speedup", "Ancient Twigs"] },
+    "30": { "defenders": 4, "xp": 15840, "rewards": ["1760 Grain", "8 Contribution", "Bag of Riches"] },
+    "40": { "defenders": 4, "xp": 39840, "rewards": ["2400 Grain", "8 Contribution", "Peculiar Artifact"] }
+  },
+  "structures": {
+    "fort": { "affluence": 40 },
+    "ruins": { "affluence": 150 },
+    "tactical_fort": { "affluence": 150 },
+    "workshop": { "affluence": 65 }
+  }
+}
