@@ -1,0 +1,40 @@
+{
+  "factions": [
+    {
+      "id": "auric_legion",
+      "displayName": "Auric Legion",
+      "passiveBonus": {"name": "RoadsOfEmpire", "effect": "+1 movement on road and flat terrain"},
+      "combatProfile": {"attack": 1.0, "defense": 1.0, "mobility": 1.2, "sustain": 0.9}
+    },
+    {
+      "id": "byzantine_luminants",
+      "displayName": "Byzantine Luminants",
+      "passiveBonus": {"name": "GreekFireDoctrine", "effect": "+20 percent fire resistance and +10 percent village defense"},
+      "combatProfile": {"attack": 0.95, "defense": 1.2, "mobility": 0.9, "sustain": 1.05}
+    },
+    {
+      "id": "steppe_stormhorde",
+      "displayName": "Steppe Stormhorde",
+      "passiveBonus": {"name": "Encirclement", "effect": "+1 movement in open terrain and +15 percent first strike damage"},
+      "combatProfile": {"attack": 1.2, "defense": 0.9, "mobility": 1.25, "sustain": 0.85}
+    },
+    {
+      "id": "nocturne_carth",
+      "displayName": "Nocturne Carth",
+      "passiveBonus": {"name": "BlackSails", "effect": "+1 movement on coastal hexes and +10 percent night damage"},
+      "combatProfile": {"attack": 1.05, "defense": 0.95, "mobility": 1.1, "sustain": 0.95}
+    },
+    {
+      "id": "iron_dominion",
+      "displayName": "Iron Dominion",
+      "passiveBonus": {"name": "MountainForges", "effect": "+20 percent defense on hill and mountain terrain"},
+      "combatProfile": {"attack": 0.95, "defense": 1.25, "mobility": 0.85, "sustain": 1.0}
+    },
+    {
+      "id": "verdant_covenant",
+      "displayName": "Verdant Covenant",
+      "passiveBonus": {"name": "SacredGroves", "effect": "Regenerate 4 HP per turn in forest terrain"},
+      "combatProfile": {"attack": 1.0, "defense": 1.0, "mobility": 1.0, "sustain": 1.2}
+    }
+  ]
+}

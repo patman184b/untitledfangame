@@ -1,0 +1,57 @@
+# Large files (Exceeding GitHub 100MB limit)
+Arda-Maps-master.zip
+Arda-Maps-master/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Server specifics
+Server/node_modules/
+Server/shard.db
+Server/data/*.log
+
+# Unity specifics
+# See: https://github.com/github/gitignore/blob/main/Unity.gitignore
+UnityClient/[Ll]ibrary/
+UnityClient/[Tt]emp/
+UnityClient/[Oo]bj/
+UnityClient/[Bb]uild/
+UnityClient/[Bb]uilds/
+UnityClient/[Ll]ogs/
+UnityClient/[Mm]emoryCaptures/
+UnityClient/*.csproj
+UnityClient/*.unityproj
+UnityClient/*.sln
+UnityClient/*.suo
+UnityClient/*.tmp
+UnityClient/*.user
+UnityClient/*.userprefs
+UnityClient/*.pidb
+UnityClient/*.booproj
+UnityClient/*.svd
+UnityClient/*.pdb
+UnityClient/*.mdb
+UnityClient/*.opendb
+UnityClient/*.ltx
+UnityClient/ASSET_TRACKING_CACHE.txt
+
+# Unity Client Meta
+UnityClient/Assets/AssetStoreTools*
+
+# OS specifics
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation artifacts
+implementation_plan.md
+data_inventory.md
+walkthrough.md
+task.md

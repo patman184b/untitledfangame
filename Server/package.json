@@ -1,0 +1,19 @@
+{
+  "name": "historical-fantasy-persistent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "nanoid": "^5.0.7",
+    "pg": "^8.20.0",
+    "uuid": "^13.0.0",
+    "ws": "^8.18.0"
+  }
+}

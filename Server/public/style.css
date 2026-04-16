@@ -1,0 +1,167 @@
+:root {
+  --bg: #0f1419;
+  --panel: #1a2332;
+  --text: #e8eef5;
+  --muted: #8b9cb3;
+  --accent: #c9a227;
+  --err: #e85d5d;
+  --ok: #5dd39e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #2a3544;
+}
+
+.top h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.sub {
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1200px;
+}
+
+.panel {
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  border: 1px solid #2a3544;
+}
+
+.join-panel {
+  flex: 0 0 280px;
+}
+
+.join-panel input {
+  width: 100%;
+  padding: 0.5rem 0.65rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  border: 1px solid #3d4d63;
+  background: #0f1419;
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+  padding: 0.45rem 0.9rem;
+  border-radius: 6px;
+  border: none;
+  background: var(--accent);
+  color: #1a1204;
+  font-weight: 600;
+}
+
+button.ghost {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid #3d4d63;
+}
+
+.game-panel {
+  flex: 1 1 640px;
+  min-width: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hint {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin: 0.35rem 0 0.75rem;
+}
+
+.err {
+  color: var(--err);
+  font-size: 0.85rem;
+  min-height: 1.2em;
+}
+
+.player-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: #2a3544;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.res {
+  font-size: 0.9rem;
+  color: var(--ok);
+}
+
+.map-wrap {
+  overflow: auto;
+  max-height: 70vh;
+  border-radius: 8px;
+  border: 1px solid #2a3544;
+  background: #0a0e12;
+}
+
+#map {
+  display: block;
+  image-rendering: pixelated;
+}
+
+.log {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  max-width: 280px;
+  max-height: 120px;
+  overflow-y: auto;
+  font-size: 0.7rem;
+  color: var(--muted);
+  padding: 0.35rem 0.5rem;
+  background: rgba(26, 35, 50, 0.92);
+  border-radius: 6px;
+  border: 1px solid #2a3544;
+  pointer-events: none;
+}
+
+.dev {
+  margin-top: 0.75rem;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMPERIUM | Grand Strategy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Auth Screen -->
+        <section id="auth-screen" class="screen">
+            <div class="auth-card">
+                <h1 class="cinzel">IMPERIUM</h1>
+                <p class="subtitle">Historical Fantasy Grand Strategy</p>
+                
+                <div id="login-form">
+                    <input type="text" id="login-user" placeholder="Username" class="fantasy-input">
+                    <input type="password" id="login-pass" placeholder="Password" class="fantasy-input">
+                    <button id="btn-login" class="fantasy-button">ENTER EMPIRE</button>
+                    <p class="toggle-auth">Need an account? <span id="to-register">Register</span></p>
+                </div>
+
+                <div id="register-form" class="hidden">
+                    <input type="text" id="reg-user" placeholder="Username" class="fantasy-input">
+                    <input type="password" id="reg-pass" placeholder="Password" class="fantasy-input">
+                    <select id="reg-faction" class="fantasy-input fantasy-select">
+                        <option value="" disabled selected>Select Faction</option>
+                        <option value="rome">Rome</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="carthage">Carthage</option>
+                        <option value="gaul">Gaul</option>
+                        <option value="greece">Greece</option>
+                        <option value="persia">Persia</option>
+                    </select>
+                    <button id="btn-register" class="fantasy-button gold">FOUND EMPIRE</button>
+                    <p class="toggle-auth">Already have an account? <span id="to-login">Login</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Game UI -->
+        <main id="game-screen" class="screen hidden">
+            <!-- Top HUD -->
+            <header class="hud-top">
+                <div class="player-info">
+                    <span id="display-name" class="cinzel">General</span>
+                    <span id="faction-badge" class="badge">ROME</span>
+                </div>
+                <div class="resources">
+                    <div class="res-item" title="Wood"><span class="icon">🌲</span><span id="res-wood">0</span></div>
+                    <div class="res-item" title="Ore"><span class="icon">⛏️</span><span id="res-ore">0</span></div>
+                    <div class="res-item" title="Grain"><span class="icon">🌾</span><span id="res-grain">0</span></div>
+                    <div class="res-item" title="Stone"><span class="icon">🧱</span><span id="res-stone">0</span></div>
+                    <div class="res-item gold" title="Gems"><span class="icon">💎</span><span id="res-gems">0</span></div>
+                </div>
+                <button id="btn-logout" class="icon-btn" title="Logout">退出</button>
+            </header>
+
+            <!-- Map Viewport -->
+            <div id="viewport-container">
+                <canvas id="map-canvas"></canvas>
+                
+                <!-- Interaction Overlay -->
+                <div id="tile-inspector" class="floating-panel hidden">
+                    <h3 id="inspect-title" class="cinzel">Wilderness</h3>
+                    <p id="inspect-coords"></p>
+                    <div id="inspect-stats"></div>
+                    <div class="actions">
+                        <button id="btn-march-here" class="fantasy-button small">MARCH</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Menu -->
+            <nav class="hud-bottom">
+                <button class="nav-btn active" data-view="map">WORLD</button>
+                <button class="nav-btn" data-view="base">MY CITY</button>
+                <button class="nav-btn" data-view="military">ARMY</button>
+                <button class="nav-btn" data-view="tech">KNOWLEDGE</button>
+            </nav>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="hidden">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>

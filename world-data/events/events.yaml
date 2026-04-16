@@ -1,0 +1,49 @@
+events:
+  - id: migration_waves
+    triggerTurn: 3
+    category: population
+    effect: neutral villages on border zones shift ownership to nearest side
+  - id: steppe_comets
+    triggerTurn: 5
+    category: omen
+    effect: cavalry units gain temporary damage bonus
+  - id: plague_of_caffa
+    triggerTurn: 7
+    category: plague
+    effect: all non-undead units lose small hp for two turns
+  - id: alexandrian_grimoire
+    triggerTurn: 9
+    category: relic
+    effect: one random mage-type unit per side gains xp
+  - id: black_sea_tempest
+    triggerTurn: 11
+    category: weather
+    effect: coastal movement reduced for one turn
+  - id: holy_synod
+    triggerTurn: 13
+    category: doctrine
+    effect: lawful alignment units gain small defense bonus
+  - id: nomad_unification
+    triggerTurn: 15
+    category: politics
+    effect: steppe side receives reinforcement near capital
+  - id: mountain_forge_bloom
+    triggerTurn: 17
+    category: economy
+    effect: hill and mountain villages grant bonus gold
+  - id: emerald_long_rain
+    triggerTurn: 19
+    category: weather
+    effect: forest units gain regeneration this round
+  - id: night_of_long_sails
+    triggerTurn: 21
+    category: naval
+    effect: nocturnal coastal attacks receive damage boost
+  - id: relic_of_justinian
+    triggerTurn: 23
+    category: relic
+    effect: defending capital leaders heal and gain resistance
+  - id: final_omens
+    triggerTurn: 25
+    category: endgame
+    effect: all capitals reveal on map and victory pressure increases

@@ -1,0 +1,144 @@
+factions:
+  - id: auric_legion
+    displayName: Auric Legion
+    historicalAnalog: Late Roman Empire
+    magicTheme: Solar battle liturgy and relic standards
+    startRegion: Italia
+    capital: NovaRoma
+    leaderUnit: General
+    passiveBonus:
+      name: RoadsOfEmpire
+      effect: +1 movement on road and flat terrain
+    starterRoster:
+      - unit: Spearman
+        count: 6
+        role: front_line
+      - unit: Bowman
+        count: 4
+        role: ranged_support
+      - unit: Cavalryman
+        count: 3
+        role: flanking
+      - unit: Mage
+        count: 1
+        role: utility_burst
+
+  - id: byzantine_luminants
+    displayName: Byzantine Luminants
+    historicalAnalog: Byzantine Empire
+    magicTheme: Holy fire and warded fortification rites
+    startRegion: ThraceAnatolia
+    capital: AuricByzantion
+    leaderUnit: GrandKnight
+    passiveBonus:
+      name: GreekFireDoctrine
+      effect: +20 percent fire resistance and +10 percent village defense
+    starterRoster:
+      - unit: Heavy Infantryman
+        count: 5
+        role: anvil
+      - unit: Longbowman
+        count: 3
+        role: ranged_pressure
+      - unit: Horseman
+        count: 3
+        role: pursuit
+      - unit: White Mage
+        count: 1
+        role: sustain
+
+  - id: steppe_stormhorde
+    displayName: Steppe Stormhorde
+    historicalAnalog: Mongol Empire
+    magicTheme: Tempest shamanism and thunder totems
+    startRegion: PonticSteppe
+    capital: SteppeThrone
+    leaderUnit: Orcish Warlord
+    passiveBonus:
+      name: Encirclement
+      effect: +1 movement in open terrain and +15 percent first strike damage
+    starterRoster:
+      - unit: Wolf Rider
+        count: 5
+        role: raid
+      - unit: Orcish Archer
+        count: 4
+        role: skirmish
+      - unit: Orcish Grunt
+        count: 4
+        role: shock
+      - unit: Orcish Shaman
+        count: 1
+        role: support_debuff
+
+  - id: nocturne_carth
+    displayName: Nocturne Carth
+    historicalAnalog: Carthaginian maritime league
+    magicTheme: Shadow pacts and leviathan rites
+    startRegion: NorthAfrica
+    capital: NightCarth
+    leaderUnit: Elvish Captain
+    passiveBonus:
+      name: BlackSails
+      effect: +1 movement on coastal hexes and +10 percent night damage
+    starterRoster:
+      - unit: Elvish Fighter
+        count: 5
+        role: duelist
+      - unit: Elvish Archer
+        count: 4
+        role: precision_ranged
+      - unit: Merman Fighter
+        count: 2
+        role: coastal_control
+      - unit: Dark Adept
+        count: 1
+        role: burst_magic
+
+  - id: iron_dominion
+    displayName: Iron Dominion
+    historicalAnalog: Persian and Armenian highlands
+    magicTheme: Forge runes and basalt wardcraft
+    startRegion: CaucasusHighlands
+    capital: IronKarak
+    leaderUnit: Dwarvish Lord
+    passiveBonus:
+      name: MountainForges
+      effect: +20 percent defense on hill and mountain terrain
+    starterRoster:
+      - unit: Dwarvish Fighter
+        count: 6
+        role: tank
+      - unit: Dwarvish Thunderer
+        count: 3
+        role: ranged_pierce
+      - unit: Gryphon Rider
+        count: 2
+        role: rapid_response
+      - unit: Dwarvish Ulfserker
+        count: 1
+        role: finisher
+
+  - id: verdant_covenant
+    displayName: Verdant Covenant
+    historicalAnalog: Celtic and Gallic confederations
+    magicTheme: Druidic weather and living forest circles
+    startRegion: GaulIberia
+    capital: EmeraldGaul
+    leaderUnit: Elvish Marshal
+    passiveBonus:
+      name: SacredGroves
+      effect: Regenerate 4 HP per turn in forest terrain
+    starterRoster:
+      - unit: Elvish Scout
+        count: 4
+        role: reconnaissance
+      - unit: Elvish Archer
+        count: 4
+        role: ranged_control
+      - unit: Elvish Fighter
+        count: 4
+        role: line_holder
+      - unit: Shaman
+        count: 2
+        role: heal_slow

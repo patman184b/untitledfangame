@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HistoricalFantasyFaction",
+  "type": "object",
+  "required": [
+    "id",
+    "displayName",
+    "historicalAnalog",
+    "magicTheme",
+    "startRegion",
+    "capital",
+    "leaderUnit",
+    "passiveBonus",
+    "starterRoster"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "displayName": { "type": "string" },
+    "historicalAnalog": { "type": "string" },
+    "magicTheme": { "type": "string" },
+    "startRegion": { "type": "string" },
+    "capital": { "type": "string" },
+    "leaderUnit": { "type": "string" },
+    "passiveBonus": {
+      "type": "object",
+      "required": ["name", "effect"],
+      "properties": {
+        "name": { "type": "string" },
+        "effect": { "type": "string" }
+      }
+    },
+    "starterRoster": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["unit", "count", "role"],
+        "properties": {
+          "unit": { "type": "string" },
+          "count": { "type": "integer", "minimum": 1 },
+          "role": { "type": "string" }
+        }
+      }
+    }
+  }
+}
